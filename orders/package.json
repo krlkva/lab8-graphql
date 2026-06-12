@@ -1,0 +1,17 @@
+{
+  "name": "orders",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@apollo/server": "^5.5.1",
+    "graphql": "^16.14.2",
+    "sqlite3": "^6.0.1"
+  }
+}
