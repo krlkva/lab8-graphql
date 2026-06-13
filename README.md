@@ -23,19 +23,35 @@ API Gateway - Apollo Gateway
 
 ## Структура репозитория
 graphql-microservices/
-├── gateway/
+
+├── gateway
+
 │ ├── index.js # API Gateway (порт 4000)
+
 │ └── package.json
+
 ├── users/
+
 │ ├── index.js # Микросервис пользователей (порт 4001)
+
 │ ├── users.db # SQLite БД (создаётся автоматически)
+
 │ └── package.json
+
 ├── products/
+
 │ ├── index.js # Микросервис товаров (порт 4003)
+
 │ ├── products.db
+
 │ └── package.json
+
 ├── orders/
+
 │ ├── index.js # Микросервис заказов (порт 4002)
+
 │ ├── orders.db
+
 │ └── package.json
+
 └── README.md
